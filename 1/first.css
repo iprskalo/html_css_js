@@ -1,0 +1,39 @@
+body{
+    background-image: url("background.png");
+}
+
+li ul {
+    display: none;
+    }
+
+li:hover > ul {
+    display: block;
+    }
+
+h1 {
+    color: yellow;
+    -webkit-text-stroke: 2px red;
+    font-size: 300%;
+    }
+
+#head{
+    border-bottom: 3px double black;
+}
+
+#left{
+    float: left;
+    width: 20%;
+}
+
+#right{
+    float: left;
+    width: 75%;
+    border-left: 3px double gray;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    border-top: 3px double gray;
+
+}
